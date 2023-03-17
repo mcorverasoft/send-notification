@@ -62,7 +62,20 @@
 			<artifactId>simple-java-mail</artifactId>
 			<version>8.0.0</version>
 		</dependency>
-    </dependencies>
+		<!-- https://mvnrepository.com/artifact/jakarta.mail/jakarta.mail-api -->
+		<dependency>
+			<groupId>jakarta.mail</groupId>
+			<artifactId>jakarta.mail-api</artifactId>
+			<version>2.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.activation</groupId>
+			<artifactId>jakarta.activation-api</artifactId>
+			<version>2.1.1</version>
+		</dependency>
+
+
+	</dependencies>
 
 	<build>
 		<plugins>

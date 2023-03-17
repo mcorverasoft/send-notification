@@ -8,4 +8,6 @@ import lombok.EqualsAndHashCode;
 @Builder
 @EqualsAndHashCode
 public class DTONotificationResponse {
+    @Builder.Default
+    private String message="";
 }

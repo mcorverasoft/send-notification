@@ -1,9 +1,11 @@
 package hipotecario.com.sv.sendnotification.domain.interfaces;
 
+import hipotecario.com.sv.sendnotification.application.dtos.DTONotificationRequest;
 import hipotecario.com.sv.sendnotification.application.dtos.DTONotificationResponse;
 
-public interface INotificationService {
+import javax.mail.MessagingException;
 
-    DTONotificationResponse sendNotification(Object notification);
+public interface INotificationService {
+    DTONotificationResponse sendNotification(DTONotificationRequest notification) throws MessagingException;
 
 }
